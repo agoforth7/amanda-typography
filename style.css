@@ -1,1 +1,85 @@
-index.css
+body {
+	font-family: Georgia, serif;
+	font-size: 12px;
+	line-height: 1.75em;
+	width: 650px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	font-size: 11px;
+	font-family: Arial; sans-serif;
+	text-align: center;
+	line-height: 1.75em;
+}
+
+h1 {
+	font-size: 22px;
+	font-family: "Arial Black", sans-serif;
+	margin-bottom: 5px;
+}
+
+.author {
+	font-family: "Arial Black", sans-serif;
+}
+
+.optional-break {
+	display: block;
+}
+
+.entry-meta {
+	font-size: 9px;
+}
+
+div.main-content  p:first-child {
+	font-size: 16px;
+	margin: 30px 0 25px 0;
+}
+
+ol {
+	margin: 0 0 25px 0;
+}
+
+li {
+	padding: 7px 0 0 0;
+}
+
+h2 {
+	font-family: "Arial Black", sans-serif;
+	color: #bf0200;
+	font-size: 15px;
+	margin: 20px 0 0 0;
+}
+
+h3 {
+	font-family: "Arial Black", sans-serif;
+	font-size: 11px;
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+
+h3 + p {
+	margin-top: 3px;
+}
+figure {
+	margin: 20px 0 25px 0;
+	padding: 0 0 0 5px;
+	border-left: 1px solid #dedede;
+	font-style: italic;
+}
+
+blockquote {
+	margin: auto 0 auto 0;
+	padding: 0 0 0 5px;
+}
+
+figcaption {
+	font-size: 9px;
+	text-indent: 5px;
+	padding: 5px 0 0 0;
+}
